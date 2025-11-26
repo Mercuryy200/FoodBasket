@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4923126546055502980}
   - component: {fileID: 7762914381857622010}
   m_Layer: 0
-  m_Name: Prop_Oven_02
+  m_Name: a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
