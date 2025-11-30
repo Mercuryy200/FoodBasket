@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float spawnRate = 1.0f;
 
     [SerializeField] public float score;
+    [SerializeField] private float timeRemaining = 60f;
+    [SerializeField] private bool timerIsRunning = false;
     private const float spawnHeight = 7f;
     private const float xSpawnRange = 4f;
     private const float zPosition = 0f; 
@@ -24,7 +26,21 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        
+        if (timerIsRunning)
+        {
+            if (timeRemaining > 0)
+            {
+                timeRemaining -= Time.deltaTime;
+                
+            }
+            else
+            {
+                Debug.Log("Time has run out!");
+                timeRemaining = 0;
+                timerIsRunning = false;
+                GameOver();
+            }
+        }
     }
     private IEnumerator SpawnTarget()
     {
@@ -41,5 +57,13 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         StartCoroutine(nameof(SpawnTarget));
+        timerIsRunning = true;
     }
+    public void GameOver()
+    {
+        isGameActive = false;
+        timerIsRunning = false;
+        Debug.Log("Game Over");
+    }
+
 }
