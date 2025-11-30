@@ -1,21 +1,10 @@
-using Mono.Cecil.Cil;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody playerRb;
     private float xBound = 4;
     public float speed = 5.0f;
     
-
-    void Awake()
-    {
-        playerRb = GetComponent<Rigidbody>();
-        if (playerRb == null)
-        {
-            Debug.LogError($"Rigidbody component missing on {gameObject.name}");
-        }
-    }
 
     void Update()
     {
@@ -31,3 +20,4 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector3(clampedX, transform.position.y, transform.position.z);
     }
 }
+
