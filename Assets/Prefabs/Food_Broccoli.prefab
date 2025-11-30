@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7730016627333870173}
   - component: {fileID: 1650854658215354204}
   - component: {fileID: 8748626523216872402}
+  - component: {fileID: -6650990102669905041}
   m_Layer: 0
   m_Name: Food_Broccoli
   m_TagString: Good
@@ -153,9 +154,22 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.18079749, y: 0.25633553, z: 0.17344323}
   m_Center: {x: 0.0041452385, y: 0.10900146, z: -0.00015961751}
+--- !u!114 &-6650990102669905041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119718516136263756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8d579a612f74fdb82875137f55f7de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 10

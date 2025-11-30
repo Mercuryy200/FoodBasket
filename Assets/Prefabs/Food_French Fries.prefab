@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2102010534272995070}
   - component: {fileID: 2871212530836711633}
   - component: {fileID: 6701343166036811269}
+  - component: {fileID: 5831968900579694995}
   m_Layer: 0
   m_Name: Food_French Fries
   m_TagString: Good
@@ -153,9 +154,22 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19177929, y: 0.21475054, z: 0.108233064}
   m_Center: {x: 0, y: 0.10750022, z: -0.014991529}
+--- !u!114 &5831968900579694995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755126145159931721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8d579a612f74fdb82875137f55f7de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 10

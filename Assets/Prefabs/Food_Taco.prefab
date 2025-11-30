@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3720348245102508505}
   - component: {fileID: 823507116769037284}
   - component: {fileID: 3798282939599555211}
+  - component: {fileID: -7810621513736501011}
   m_Layer: 0
   m_Name: Food_Taco
   m_TagString: Good
@@ -153,9 +154,22 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.27002195, y: 0.14398944, z: 0.13428913}
   m_Center: {x: 0.0050777197, y: -0.001948569, z: 0.000018171966}
+--- !u!114 &-7810621513736501011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223512588748982567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8d579a612f74fdb82875137f55f7de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 10
