@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     [Header("Spawn Settings")]
     [SerializeField] private List<GameObject> targets;
     [SerializeField] private float spawnRate = 1.0f;
-    private float originalSpawnRate; // To store the starting speed
+    private float originalSpawnRate; 
 
     [Header("Game Stats")]
     [SerializeField] public float score;
@@ -27,7 +30,13 @@ public class GameManager : MonoBehaviour
     private Vector3 originalGravity;
     private GameObject player;
     private PlayerController playerController;
+    public TextMeshProUGUI timerText;
+    public GameObject gameOverPanel;
+    public Button startButton;
 
+    [System.NonSerialized]
+    public ScoreUIView scoreUIView;
+    public ScoreService scoreService;
     void Awake()
     {
         player = GameObject.FindWithTag("Player");
@@ -40,14 +49,20 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError($"PlayerController Component missing on Player");
         }
+        scoreService = new ScoreService();
+        scoreUIView = GetComponent<ScoreUIView>();
+        if (scoreUIView == null)
+        {
+            enabled = false;
+            Debug.LogError($"{scoreUIView.name} component is missing in {gameObject.name}");
+            return;
+        }
     }
 
     void Start()
     {
         originalGravity = Physics.gravity;
         originalSpawnRate = spawnRate;
-        
-        StartGame();
     }
 
     void Update()
@@ -57,10 +72,10 @@ public class GameManager : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
+                timerText.text = $"{Mathf.RoundToInt(timeRemaining)}";
             }
             else
             {
-                Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 GameOver();
             }
@@ -72,10 +87,14 @@ public class GameManager : MonoBehaviour
         while (isGameActive)
         {
             yield return new WaitForSeconds(spawnRate);
-            int index = Random.Range(0, targets.Count);
-            float randomSpawnX = Random.Range(-xSpawnRange, xSpawnRange);
-            var spawnPos = new Vector3(randomSpawnX, spawnHeight, zPosition );
-            Instantiate(targets[index], spawnPos, Quaternion.identity);
+
+            if (isGameActive)
+            {
+                int index = Random.Range(0, targets.Count);
+                float randomSpawnX = Random.Range(-xSpawnRange, xSpawnRange);
+                var spawnPos = new Vector3(randomSpawnX, spawnHeight, zPosition);
+                Instantiate(targets[index], spawnPos, Quaternion.identity);
+            }
         }
     }
 
@@ -91,6 +110,11 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+    public void UpdateScore(int scoreToAdd)
+    {
+        scoreService.AddPoints(scoreToAdd);
+        scoreUIView.DisplayScore(scoreService.Score);
+    }
 
     public void StartGame()
     {
@@ -98,16 +122,32 @@ public class GameManager : MonoBehaviour
         timerIsRunning = true;
         spawnRate = originalSpawnRate; 
         Physics.gravity = originalGravity; 
+        scoreUIView.scoreText.gameObject.SetActive(true);
+        timerText.gameObject.SetActive(true);
+        startButton.gameObject.SetActive(false);
         StartCoroutine(nameof(SpawnTarget));
         StartCoroutine(nameof(IncreaseDifficultyRoutine)); 
     }
 
     public void GameOver()
     {
+        
         isGameActive = false;
         timerIsRunning = false;
         playerController.enabled = false;
+        scoreUIView.scoreText.gameObject.SetActive(false);
+        timerText.gameObject.SetActive(false);
+        gameOverPanel.SetActive(true);
         Physics.gravity = originalGravity;   
-        Debug.Log("Game Over");
+        Target[] activeTargets = FindObjectsOfType<Target>(); 
+        
+        foreach (Target target in activeTargets)
+        {
+            Destroy(target.gameObject);
+        }
+    }
+      public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

@@ -47,7 +47,7 @@ public class Target : MonoBehaviour
             {
                 Instantiate(explosionParticle, transform.position, transform.rotation);
             }
-            gameManager.score += pointValue;
+            gameManager.UpdateScore(pointValue);
             Destroy(gameObject);
 
         }
