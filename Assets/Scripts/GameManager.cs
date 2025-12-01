@@ -26,11 +26,14 @@ public class GameManager : MonoBehaviour
     private const float xSpawnRange = 4f;
     private const float zPosition = 0f; 
 
-    private bool isGameActive = true;
+    public bool isGameActive = true;
     private Vector3 originalGravity;
     private GameObject player;
     private PlayerController playerController;
-    public TextMeshProUGUI timerText;
+    
+    [Header("UI Objects")]
+    [SerializeField] private TextMeshProUGUI finalScoreText;
+    [SerializeField]private TextMeshProUGUI timerText;
     public GameObject gameOverPanel;
     public Button startButton;
 
@@ -125,6 +128,7 @@ public class GameManager : MonoBehaviour
         scoreUIView.scoreText.gameObject.SetActive(true);
         timerText.gameObject.SetActive(true);
         startButton.gameObject.SetActive(false);
+        playerController.enabled = true;
         StartCoroutine(nameof(SpawnTarget));
         StartCoroutine(nameof(IncreaseDifficultyRoutine)); 
     }
@@ -138,15 +142,10 @@ public class GameManager : MonoBehaviour
         scoreUIView.scoreText.gameObject.SetActive(false);
         timerText.gameObject.SetActive(false);
         gameOverPanel.SetActive(true);
+        finalScoreText.text = $"Final Score: {scoreService.Score}";
         Physics.gravity = originalGravity;   
-        Target[] activeTargets = FindObjectsOfType<Target>(); 
-        
-        foreach (Target target in activeTargets)
-        {
-            Destroy(target.gameObject);
-        }
     }
-      public void RestartGame()
+    public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

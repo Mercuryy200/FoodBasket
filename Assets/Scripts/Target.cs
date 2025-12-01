@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    [SerializeField]
-    private int pointValue;
+    public int pointValue;
     private GameManager gameManager;
     private const string gmName = "Game Manager";
     private AudioSource targetAudio;
@@ -32,7 +31,13 @@ public class Target : MonoBehaviour
             enabled = false;
             Debug.LogError($"TargetAudio component missing on {gameObject.name}");
         }
-        
+    }
+    void Update()
+    {
+        if (!gameManager.isGameActive)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

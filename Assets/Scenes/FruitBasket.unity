@@ -1882,12 +1882,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146760664}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd81825074ebc4412b29b8f7e81edcec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!1 &1158361978
 GameObject:
   m_ObjectHideFlags: 0
@@ -3036,6 +3035,8 @@ MonoBehaviour:
   difficultyIncreaseInterval: 5
   gravityMultiplier: 1.1
   spawnRateDivider: 1.1
+  isGameActive: 1
+  finalScoreText: {fileID: 0}
   timerText: {fileID: 1631877626}
   gameOverPanel: {fileID: 1158361978}
   startButton: {fileID: 492182174}
