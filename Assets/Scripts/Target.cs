@@ -6,7 +6,10 @@ public class Target : MonoBehaviour
     private int pointValue;
     private GameManager gameManager;
     private const string gmName = "Game Manager";
+    private AudioSource targetAudio;
+    public AudioClip collisionSound; 
 
+    public ParticleSystem explosionParticle;
 
     private void Awake()
     {
@@ -23,14 +26,29 @@ public class Target : MonoBehaviour
             enabled = false;
             Debug.LogError($"GameManager component missing on {gmName}");
         }
+        targetAudio = GetComponent<AudioSource>();
+        if (targetAudio == null)
+        {
+            enabled = false;
+            Debug.LogError($"TargetAudio component missing on {gameObject.name}");
+        }
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            if (collisionSound != null)
+            {
+                AudioSource.PlayClipAtPoint(collisionSound, transform.position, 1.0f);
+            }
+            if( explosionParticle != null)
+            {
+                Instantiate(explosionParticle, transform.position, transform.rotation);
+            }
             gameManager.score += pointValue;
+            Destroy(gameObject);
 
         }
         if(other.CompareTag("Furniture"))
