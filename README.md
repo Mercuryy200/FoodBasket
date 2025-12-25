@@ -149,7 +149,7 @@ Key game settings can be adjusted in the Inspector:
 
 - Portfolio: [rimanafougui.vercel.app](https://rimanafougui.vercel.app)
 - GitHub: [@Mercuryy200](https://github.com/Mercuryy200)
-- LinkedIn: Rima Nafougui(https://linkedin.com/in/rima-nafougui-b0434b295/) 
+- LinkedIn: [Rima Nafougui](https://linkedin.com/in/rima-nafougui-b0434b295/) 
 
 ## Acknowledgments
 
