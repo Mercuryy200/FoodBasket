@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.0.0.0">
+  <Summary numSequencePoints="41" visitedSequencePoints="41" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="4" numClasses="4" visitedMethods="4" numMethods="4" />
+  <Modules>
+    <Module>
+      <Summary numSequencePoints="26" visitedSequencePoints="26" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="3" numClasses="3" visitedMethods="3" numMethods="3" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>CFXRRuntime</ModuleName>
+      <Files>
+        <File uid="8" fullPath="/Users/rima/UnityProjects/FruitBasket/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs" />
+        <File uid="9" fullPath="/Users/rima/UnityProjects/FruitBasket/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs" />
+        <File uid="10" fullPath="/Users/rima/UnityProjects/FruitBasket/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs" />
+        <File uid="11" fullPath="/Users/rima/UnityProjects/FruitBasket/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs" />
+        <File uid="12" fullPath="/Users/rima/UnityProjects/FruitBasket/Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>CartoonFX.CFXR_Effect</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>CartoonFX.CFXR_Effect::CFXR_Effect()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="4133" ordinal="0" offset="0" sl="449" sc="3" el="449" ec="3" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>CartoonFX.CFXR_Effect/CameraShake</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663360</MetadataToken>
+              <Name>CartoonFX.CFXR_Effect/CameraShake::CameraShake()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="4871" ordinal="0" offset="0" sl="25" sc="4" el="25" ec="4" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4872" ordinal="0" offset="7" sl="27" sc="4" el="27" ec="4" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4873" ordinal="0" offset="14" sl="28" sc="4" el="28" ec="4" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4874" ordinal="0" offset="25" sl="30" sc="4" el="30" ec="4" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4875" ordinal="0" offset="36" sl="31" sc="4" el="31" ec="4" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4876" ordinal="0" offset="47" sl="32" sc="4" el="32" ec="4" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4877" ordinal="0" offset="54" sl="33" sc="4" el="33" ec="4" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4878" ordinal="0" offset="80" sl="34" sc="4" el="34" ec="4" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4879" ordinal="0" offset="111" sl="36" sc="21" el="36" ec="21" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="4880" ordinal="0" offset="122" sl="39" sc="4" el="39" ec="4" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>CartoonFX.CFXR_Effect/AnimatedLight</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663365</MetadataToken>
+              <Name>CartoonFX.CFXR_Effect/AnimatedLight::AnimatedLight()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="4936" ordinal="0" offset="0" sl="61" sc="4" el="61" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4937" ordinal="0" offset="11" sl="62" sc="4" el="62" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4938" ordinal="0" offset="22" sl="63" sc="4" el="63" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4939" ordinal="0" offset="33" sl="64" sc="4" el="64" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4940" ordinal="0" offset="64" sl="66" sc="4" el="66" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4941" ordinal="0" offset="75" sl="68" sc="4" el="68" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4942" ordinal="0" offset="86" sl="70" sc="4" el="70" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4943" ordinal="0" offset="97" sl="73" sc="4" el="73" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4944" ordinal="0" offset="108" sl="74" sc="4" el="74" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4945" ordinal="0" offset="119" sl="75" sc="4" el="75" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4946" ordinal="0" offset="130" sl="76" sc="4" el="76" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4947" ordinal="0" offset="161" sl="78" sc="4" el="78" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4948" ordinal="0" offset="172" sl="82" sc="4" el="82" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4949" ordinal="0" offset="183" sl="83" sc="4" el="83" ec="4" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="4950" ordinal="0" offset="214" sl="85" sc="4" el="85" ec="4" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module>
+      <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>EditMode</ModuleName>
+      <Files>
+        <File uid="13" fullPath="/Users/rima/UnityProjects/FruitBasket/Assets/EditMode/EditModeTest.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>EditModeTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void EditModeTests::BombPrefab_HasRequiredComponents()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="5172" ordinal="0" offset="0" sl="11" sc="5" el="11" ec="5" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5173" ordinal="0" offset="1" sl="12" sc="9" el="12" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5174" ordinal="0" offset="12" sl="13" sc="9" el="13" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5175" ordinal="0" offset="29" sl="15" sc="9" el="15" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5176" ordinal="0" offset="36" sl="16" sc="9" el="16" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5177" ordinal="0" offset="53" sl="18" sc="9" el="18" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5178" ordinal="0" offset="75" sl="20" sc="9" el="20" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5179" ordinal="0" offset="82" sl="21" sc="9" el="21" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5180" ordinal="0" offset="99" sl="23" sc="9" el="23" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5181" ordinal="0" offset="121" sl="25" sc="9" el="25" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5182" ordinal="0" offset="127" sl="26" sc="9" el="26" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5183" ordinal="0" offset="160" sl="27" sc="9" el="27" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5184" ordinal="0" offset="182" sl="28" sc="9" el="28" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5185" ordinal="0" offset="204" sl="29" sc="9" el="29" ec="9" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="5186" ordinal="0" offset="226" sl="30" sc="5" el="30" ec="5" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>2025-12-02 - 3:29:42 PM</Generatedon>
+    <Parser>MultiReportParser (4x OpenCoverParser)</Parser>
+    <Assemblies>7</Assemblies>
+    <Classes>37</Classes>
+    <Files>20</Files>
+    <Coveredlines>415</Coveredlines>
+    <Uncoveredlines>2064</Uncoveredlines>
+    <Coverablelines>2479</Coverablelines>
+    <Totallines>4226</Totallines>
+    <Linecoverage>16.7</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>52</Coveredmethods>
+    <Totalmethods>215</Totalmethods>
+    <Methodcoverage>24.1</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="Assembly-CSharp" classes="1" coverage="0" coveredlines="0" coverablelines="5" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0">
+      <Class name="DestroyAfterDelay" coverage="0" coveredlines="0" coverablelines="5" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+    </Assembly>
+    <Assembly name="Assembly-CSharp-Editor" classes="1" coverage="0" coveredlines="0" coverablelines="98" totallines="158" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="12" methodcoverage="0">
+      <Class name="ReadmeEditor" coverage="0" coveredlines="0" coverablelines="98" totallines="158" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="12" methodcoverage="0" />
+    </Assembly>
+    <Assembly name="CFXREditor" classes="19" coverage="3.8" coveredlines="38" coverablelines="986" totallines="9640" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="8" totalmethods="103" methodcoverage="7.7">
+      <Class name="CartoonFX.CustomShaderImporter.CFXR_ShaderImporter" coverage="0" coveredlines="0" coverablelines="132" totallines="423" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="CartoonFX.CustomShaderImporter.CFXR_ShaderPostProcessor" coverage="0" coveredlines="0" coverablelines="20" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="CartoonFX.CustomShaderImporter.Inspector.TCP2ShaderImporter_Editor" coverage="0" coveredlines="0" coverablelines="115" totallines="423" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="CartoonFX.CustomShaderImporter.Utils" coverage="0" coveredlines="0" coverablelines="4" totallines="423" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="CartoonFX.ExpressionParser" coverage="0" coveredlines="0" coverablelines="144" totallines="275" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="13" methodcoverage="0" />
+      <Class name="CartoonFX.GC_EndIf" coverage="0" coveredlines="0" coverablelines="1" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="CartoonFX.GC_Header" coverage="0" coveredlines="0" coverablelines="7" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="CartoonFX.GC_HelpBox" coverage="0" coveredlines="0" coverablelines="6" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="CartoonFX.GC_IfKeyword" coverage="0" coveredlines="0" coverablelines="14" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="CartoonFX.GC_IfProperty" coverage="0" coveredlines="0" coverablelines="68" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
+      <Class name="CartoonFX.GC_Label" coverage="0" coveredlines="0" coverablelines="7" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="CartoonFX.GC_Separator" coverage="0" coveredlines="0" coverablelines="1" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="CartoonFX.GC_SeparatorDouble" coverage="0" coveredlines="0" coverablelines="1" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="CartoonFX.GC_Space" coverage="0" coveredlines="0" coverablelines="1" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="CartoonFX.GUICommand" coverage="0" coveredlines="0" coverablelines="2" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="CartoonFX.MaterialInspector" coverage="1.8" coveredlines="3" coverablelines="166" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="11" methodcoverage="18.1" />
+      <Class name="CartoonFX.MaterialKeywordEnumNoPrefixDrawer" coverage="54.6" coveredlines="35" coverablelines="64" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="13" methodcoverage="46.1" />
+      <Class name="CartoonFX.MaterialToggleNoKeywordDrawer" coverage="0" coveredlines="0" coverablelines="30" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="CartoonFX.Styles" coverage="0" coveredlines="0" coverablelines="203" totallines="362" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="22" methodcoverage="0" />
+    </Assembly>
+    <Assembly name="CFXRRuntime" classes="8" coverage="16.7" coveredlines="192" coverablelines="1144" totallines="3561" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="19" totalmethods="70" methodcoverage="27.1">
+      <Class name="CartoonFX.CFXR_Effect" coverage="30.9" coveredlines="192" coverablelines="621" totallines="1182" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="19" totalmethods="39" methodcoverage="48.7" />
+      <Class name="CartoonFX.CFXR_Effect_Editor" coverage="0" coveredlines="0" coverablelines="78" totallines="895" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
+      <Class name="CartoonFX.CFXR_EmissionBySurface" coverage="0" coveredlines="0" coverablelines="103" totallines="195" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="7" methodcoverage="0" />
+      <Class name="CartoonFX.CFXR_EmissionBySurface_Editor" coverage="0" coveredlines="0" coverablelines="13" totallines="195" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+      <Class name="CartoonFX.CFXR_ParticleText" coverage="0" coveredlines="0" coverablelines="229" totallines="419" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="CartoonFX.CFXR_ParticleTextFontAsset" coverage="0" coveredlines="0" coverablelines="28" totallines="128" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="CartoonFX.ParticleTextEditor" coverage="0" coveredlines="0" coverablelines="28" totallines="419" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="CartoonFX.ParticleTextFontAssetEditor" coverage="0" coveredlines="0" coverablelines="44" totallines="128" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+    </Assembly>
+    <Assembly name="EditMode" classes="1" coverage="100" coveredlines="15" coverablelines="15" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100">
+      <Class name="EditModeTests" coverage="100" coveredlines="15" coverablelines="15" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+    </Assembly>
+    <Assembly name="PlayMode" classes="1" coverage="100" coveredlines="59" coverablelines="59" totallines="117" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100">
+      <Class name="PlayModeTests" coverage="100" coveredlines="59" coverablelines="59" totallines="117" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+    </Assembly>
+    <Assembly name="scripts" classes="6" coverage="64.5" coveredlines="111" coverablelines="172" totallines="288" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="20" totalmethods="23" methodcoverage="86.9">
+      <Class name="GameManager" coverage="63.9" coveredlines="62" coverablelines="97" totallines="152" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="8" totalmethods="10" methodcoverage="80" />
+      <Class name="GamePlayerInput" coverage="100" coveredlines="1" coverablelines="1" totallines="9" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="PlayerController" coverage="100" coveredlines="10" coverablelines="10" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="ScoreService" coverage="57.1" coveredlines="4" coverablelines="7" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="4" methodcoverage="75" />
+      <Class name="ScoreUIView" coverage="58.3" coveredlines="7" coverablelines="12" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="Target" coverage="60" coveredlines="27" coverablelines="45" totallines="64" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

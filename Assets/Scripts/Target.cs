@@ -6,7 +6,7 @@ public class Target : MonoBehaviour
     private GameManager gameManager;
     private const string gmName = "Game Manager";
     private AudioSource targetAudio;
-    public AudioClip collisionSound; 
+    public AudioClip collisionSound;
 
     public ParticleSystem explosionParticle;
 
@@ -32,6 +32,7 @@ public class Target : MonoBehaviour
             Debug.LogError($"TargetAudio component missing on {gameObject.name}");
         }
     }
+
     void Update()
     {
         if (!gameManager.isGameActive)
@@ -48,15 +49,14 @@ public class Target : MonoBehaviour
             {
                 AudioSource.PlayClipAtPoint(collisionSound, transform.position, 1.0f);
             }
-            if( explosionParticle != null)
+            if (explosionParticle != null)
             {
                 Instantiate(explosionParticle, transform.position, transform.rotation);
             }
             gameManager.UpdateScore(pointValue);
             Destroy(gameObject);
-
         }
-        if(other.CompareTag("Furniture"))
+        if (other.CompareTag("Furniture"))
         {
             Destroy(gameObject);
         }

@@ -3036,7 +3036,7 @@ MonoBehaviour:
   gravityMultiplier: 1.1
   spawnRateDivider: 1.1
   isGameActive: 1
-  finalScoreText: {fileID: 0}
+  finalScoreText: {fileID: 518470245}
   timerText: {fileID: 1631877626}
   gameOverPanel: {fileID: 1158361978}
   startButton: {fileID: 492182174}

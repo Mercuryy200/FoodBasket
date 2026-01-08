@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2025-12-02_15-29-41" tag="">
+  <assembly name="Assembly-CSharp">
+    <class name="DestroyAfterDelay" coveredlines="0" coverablelines="5" totallines="18" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="Assembly-CSharp-Editor">
+    <class name="ReadmeEditor" coveredlines="0" coverablelines="98" totallines="158" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="CFXREditor">
+    <class name="CartoonFX.CustomShaderImporter.CFXR_ShaderImporter" coveredlines="0" coverablelines="132" totallines="423" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.CustomShaderImporter.CFXR_ShaderPostProcessor" coveredlines="0" coverablelines="20" totallines="38" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.CustomShaderImporter.Inspector.TCP2ShaderImporter_Editor" coveredlines="0" coverablelines="115" totallines="423" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.CustomShaderImporter.Utils" coveredlines="0" coverablelines="4" totallines="423" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.ExpressionParser" coveredlines="0" coverablelines="144" totallines="275" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_EndIf" coveredlines="0" coverablelines="1" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_Header" coveredlines="0" coverablelines="7" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_HelpBox" coveredlines="0" coverablelines="6" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_IfKeyword" coveredlines="0" coverablelines="14" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_IfProperty" coveredlines="0" coverablelines="68" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_Label" coveredlines="0" coverablelines="7" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_Separator" coveredlines="0" coverablelines="1" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_SeparatorDouble" coveredlines="0" coverablelines="1" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GC_Space" coveredlines="0" coverablelines="1" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.GUICommand" coveredlines="0" coverablelines="2" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.MaterialInspector" coveredlines="3" coverablelines="166" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.MaterialKeywordEnumNoPrefixDrawer" coveredlines="35" coverablelines="64" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.MaterialToggleNoKeywordDrawer" coveredlines="0" coverablelines="30" totallines="592" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.Styles" coveredlines="0" coverablelines="203" totallines="362" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="CFXRRuntime">
+    <class name="CartoonFX.CFXR_Effect" coveredlines="192" coverablelines="621" totallines="1182" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.CFXR_Effect_Editor" coveredlines="0" coverablelines="78" totallines="895" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.CFXR_EmissionBySurface" coveredlines="0" coverablelines="103" totallines="195" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.CFXR_EmissionBySurface_Editor" coveredlines="0" coverablelines="13" totallines="195" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.CFXR_ParticleText" coveredlines="0" coverablelines="229" totallines="419" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.CFXR_ParticleTextFontAsset" coveredlines="0" coverablelines="28" totallines="128" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.ParticleTextEditor" coveredlines="0" coverablelines="28" totallines="419" coveredbranches="0" totalbranches="0" />
+    <class name="CartoonFX.ParticleTextFontAssetEditor" coveredlines="0" coverablelines="44" totallines="128" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="EditMode">
+    <class name="EditModeTests" coveredlines="15" coverablelines="15" totallines="31" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="PlayMode">
+    <class name="PlayModeTests" coveredlines="59" coverablelines="59" totallines="117" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="scripts">
+    <class name="GameManager" coveredlines="62" coverablelines="97" totallines="152" coveredbranches="0" totalbranches="0" />
+    <class name="GamePlayerInput" coveredlines="1" coverablelines="1" totallines="9" coveredbranches="0" totalbranches="0" />
+    <class name="PlayerController" coveredlines="10" coverablelines="10" totallines="24" coveredbranches="0" totalbranches="0" />
+    <class name="ScoreService" coveredlines="4" coverablelines="7" totallines="16" coveredbranches="0" totalbranches="0" />
+    <class name="ScoreUIView" coveredlines="7" coverablelines="12" totallines="23" coveredbranches="0" totalbranches="0" />
+    <class name="Target" coveredlines="27" coverablelines="45" totallines="64" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>
