@@ -2,7 +2,7 @@
 
 An interactive Unity game where players catch falling food items in a pot while avoiding bombs. The game features progressive difficulty scaling, smooth animations, and comprehensive testing practices.
 
-![Game Screenshot](todo)
+![Game Screenshot](Images/GamePlay.png)
 
 ## Game Overview
 
@@ -159,13 +159,13 @@ Key game settings can be adjusted in the Inspector:
 ## Screenshots
 
 ### Main Menu
-![Main Menu](todo)
+![Main Menu](Images/StartUI.png)
 
 ### Gameplay
-![Gameplay](todo)
+![Gameplay](Images/GamePlay.png)
 
 ### Game Over Screen
-![Game Over](todo)
+![Game Over](Images/GameOver.png)
 
 ---
 
