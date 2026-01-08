@@ -165,7 +165,7 @@ Key game settings can be adjusted in the Inspector:
 ![Gameplay](Images/GamePlay.png)
 
 ### Game Over Screen
-![Game Over](Images/GameOver.png)
+![Game Over](Images/GameOverUI.png)
 
 ---
 
